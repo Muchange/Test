@@ -1,0 +1,48 @@
+{
+    "labels": {
+        "0": "background",
+        "1": "spleen",
+        "10": "portal vein and splenic vein",
+        "11": "pancreas",
+        "12": "right adrenal gland",
+        "13": "left adrenal gland",
+        "2": "right kidney",
+        "3": "left kidney",
+        "4": "gallbladder",
+        "5": "esophagus",
+        "6": "liver",
+        "7": "stomach",
+        "8": "aorta",
+        "9": "inferior vena cava"
+    },
+    "licence": "see challenge website",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "Synapse",
+    "numTest": 12,
+    "numTraining": 30,
+    "description": "It seems that we use the whole data to train, but we will split the validation set from the training set",
+    "reference": "see challenge website",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0035.nii.gz",
+        "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0036.nii.gz",
+        "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0038.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0001.nii.gz",
+            "label": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/label/label0001.nii.gz"
+        },
+        {
+            "image": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0002.nii.gz",
+            "label": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/label/label0002.nii.gz"
+        },
+        {
+            "image": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/img/img0003.nii.gz",
+            "label": "/media/xd/date/muzhaoshan/Synapse data/RawData/Training/label/label0003.nii.gz"
+        }
+    ]
+}
